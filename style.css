@@ -1,0 +1,21 @@
+.nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    border: 3px solid blue;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.animal {
+    flex-basis: 25%;
+}
+
+img {
+    width: 250px;
+}
