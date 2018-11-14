@@ -5,17 +5,31 @@
     justify-content: space-between;
     border: 3px solid blue;
     padding: 0;
-}
 
+}
+body {
+    background-color: antiquewhite;
+}
 .container {
     display: flex;
     flex-wrap: wrap;
 }
 
-.animal {
+.animal,  {
     flex-basis: 25%;
+    margin: 20px;
+    border: 1px solid tan;
 }
-
-img {
+.Murphy > section > img {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     width: 250px;
+    border-radius: 20px;
+    padding: 8px;
+}
+img {
+    justify-content: auto;
 }
